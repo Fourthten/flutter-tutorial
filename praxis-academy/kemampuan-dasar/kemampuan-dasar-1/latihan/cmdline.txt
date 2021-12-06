@@ -1,0 +1,71 @@
+1> color 01
+== background color black, foreground color blue
+2> mkdir Test
+== membuat folder Test
+3> cd Test
+== berpindah ke direktori Test
+4> whoami
+== desktop-lficmpc\ajungs
+5> type NUL > test.txt
+== membuat file test.txt
+6> move test.txt D:\
+== memindahkan file test.txt
+7> cd ..
+== berpindah ke direktori sebelumnya
+8> copy test.txt D:\Test
+== copy file test.txt ke direktori Test
+9> copy test.txt coba.txt
+== copy file test.txt ke file coba.txt
+10> del coba.txt
+== hapus file coba.txt
+11> dir Test
+== Volume in drive D is Data
+   Volume Serial Number is 40DA-476E                                                                                                                                                                                                         Directory of D:\Test                                                                                                                                                                                                                           07/11/2019 06:25 <DIR> .
+   07/11/2019 06:25 <DIR> ..
+   07/11/2019 06:16             0 test.txt
+   1 File(s)               0 bytes
+   2 Dir(s)  216.490.532.864 bytes free
+12> echo Test
+== Test
+13> help
+== For more information on a specific command, type HELP command-name                                                      ASSOC Displays or modifies file extension associations.
+   ATTRIB Displays or changes file attributes.
+   BREAK Sets or clears extended CTRL+C checking.
+   BCDEDIT Sets properties in boot database to control boot loading.
+   CACLS Displays or modifies access control lists (ACLs) of files.
+   ... show help
+14> ipconfig
+== Windows IP Configuration
+   Ethernet adapter Ethernet:
+    Media State . . . . . . . . . . . : Media disconnected
+    Connection-specific DNS Suffix  . :
+   Wireless LAN adapter Local Area Connection* 1:
+    Media State . . . . . . . . . . . : Media disconnected
+    Connection-specific DNS Suffix  . :
+   ... show IP
+15> ping 192.168.43.33
+== Pinging 192.168.43.33 with 32 bytes of data:
+   Reply from 192.168.43.33: bytes=32 time<1ms TTL=128
+   Reply from 192.168.43.33: bytes=32 time<1ms TTL=128
+   Reply from 192.168.43.33: bytes=32 time<1ms TTL=128
+   Reply from 192.168.43.33: bytes=32 time<1ms TTL=128
+   Ping statistics for 192.168.43.33:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+   Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+16> ren test.txt tes.doc
+== rename file test.txt menjadi tes.doc
+17> tree Test
+== D:\TEST
+   +---New folder
+18> rd /s Test
+== remove direktori Test
+19> exit
+== close Command Prompt
+20> cls
+== clear screen CMD
+21> hostname
+== DESKTOP-LFICMPC
+22> find "Saya" tes.txt
+== ---------- TES.TXT
+   Saya mencoba edit

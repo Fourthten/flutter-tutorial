@@ -1,0 +1,35 @@
+import 'dart:async';
+
+Future<int> sumStream(Stream<int> stream) async {
+  var sum = 0;
+  await for (var value in stream) {
+    sum += value;
+  }
+  return sum;
+}
+
+Stream<int> countStream(int to) async* {
+  for (int i = 1; i <= to; i++) {
+    yield i;
+  }
+}
+
+// main() async {
+//   var stream = countStream(10);
+//   var sum = await sumStream(stream);
+//   print(sum); // 55
+// }
+
+main(List<String>args){
+  StreamController streams = StreamController();
+  streams.stream.listen((data){
+    // untuk menghandel data yang masuk
+    print('data: $data');
+  });
+  // untuk mengirim data dr sebuha jalur
+  for(int i=0; i<5; i++){
+    streams.sink.add(1);
+  }
+  // untuk menutup jalur data
+  streams.sink.close();
+}

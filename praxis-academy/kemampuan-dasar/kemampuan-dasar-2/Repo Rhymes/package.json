@@ -1,0 +1,12 @@
+{
+  "name": "fourthten",
+  "description": "A demo for github and travis ci for team collaboration",
+  "author": "agung <agung0410@gmail.com>",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "scripts": {
+    "test": "grunt travis --verbose"
+  }
+}

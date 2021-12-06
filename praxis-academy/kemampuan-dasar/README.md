@@ -1,0 +1,3 @@
+- Kemampuan Dasar 1: Sistem Operasi
+- Kemampuan Dasar 2: Source Code Management - Git dan GitHub
+- Wawasan: Rangkuman
