@@ -7,6 +7,7 @@ https://github.com/dicodingacademy/a159-flutter-pemula-labs/tree/codelab4-final
 ```
 
 ## Getting Started
+check requirement `flutter doctor`
 for web support
 ```
 https://docs.flutter.dev/get-started/web
@@ -18,6 +19,6 @@ for desktop support
 https://docs.flutter.dev/desktop
 https://flutter.dev/multi-platform/desktop#set-up
 ```
-`flutter config --enable-<platform>-desktop`
+`flutter config --enable-<platform>-desktop`, then `flutter create .`
 
 Run `flutter devices` then `flutter run -d <platform>`.
